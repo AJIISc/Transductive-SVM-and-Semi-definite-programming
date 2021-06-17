@@ -151,5 +151,5 @@ kl1=char(Kernel_Cell(3));
 kl2=char(Kernel_Cell(2));
 kl3=char(Kernel_Cell(1));
 
-%[alpha,Ker,beta0]=SVMTSDP(X,X_l,Y_l,kl1,kl2,kl3);
+[alpha,Ker,beta0]=SVMTSDP(X,X_l,Y_l,kl1,kl2,kl3);
 

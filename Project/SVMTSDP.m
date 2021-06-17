@@ -1,8 +1,6 @@
-%June11,2016
-%SVM
+
 function [alpha,Ker1,BB]=SVMTSDP(XX,X,Y,kl1,kl2,kl3)
-% X is N*p, Y is N*1,{-1,1}
-% Constant=Inf for Hard Margin
+
 global   C1
 c=100;
 

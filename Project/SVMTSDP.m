@@ -9,7 +9,7 @@ c=100;
 switch kl1
     case 'linear'
         Ker1=Ker_Linear(X,X);
-    case 'ploynomial'
+    case 'polynomial'
         Ker1=Ker_Polynomial(X,X);
     case 'RBF'
         Ker1=Ker_RBF(X,X);
@@ -20,7 +20,7 @@ end
 switch kl2
     case 'linear'
         Ker2=Ker_Linear(X,X);
-    case 'ploynomial'
+    case 'polynomial'
         Ker2=Ker_Polynomial(X,X);
     case 'RBF'
         Ker2=Ker_RBF(X,X);
@@ -31,7 +31,7 @@ end
 switch kl3
     case 'linear'
         Ker3=Ker_Linear(X,X);
-    case 'ploynomial'
+    case 'polynomial'
         Ker3=Ker_Polynomial(X,X);
     case 'RBF'
         Ker3=Ker_RBF(X,X);
@@ -42,7 +42,7 @@ end
 switch kl1
     case 'linear'
         K1=Ker_Linear(XX,XX);
-    case 'ploynomial'
+    case 'polynomial'
         K1=Ker_Polynomial(XX,XX);
     case 'RBF'
         K1=Ker_RBF(XX,XX);
@@ -53,7 +53,7 @@ end
 switch kl2
     case 'linear'
         K2=Ker_Linear(XX,XX);
-    case 'ploynomial'
+    case 'polynomial'
         K2=Ker_Polynomial(XX,XX);
     case 'RBF'
         K2=Ker_RBF(XX,XX);
@@ -64,7 +64,7 @@ end
 switch kl3
     case 'linear'
         K3=Ker_Linear(XX,XX);
-    case 'ploynomial'
+    case 'polynomial'
         K3=Ker_Polynomial(XX,XX);
     case 'RBF'
         K3=Ker_RBF(XX,XX);

@@ -126,7 +126,7 @@ Y_pred=zeros(size(X_u(:,1)));
 switch kernel
     case 'linear'
         Kerr=Ker_Linear(X_l,X_u);
-    case 'ploynomial'
+    case 'polynomial'
         Kerr=Ker_Polynomial(X_l,X_u);
     case 'RBF'
         Kerr=Ker_RBF(X_l,X_u);
@@ -159,5 +159,8 @@ Accuracyt=flag/50;
 
 disp('SVM='),disp(Accuracy)
 disp('TSVM='),disp(Accuracyt)
-%[alpha,Ker,beta0]=SVMTSDP(X,X_l,Y_l,kl1,kl2,kl3);
+kl1=char(Kernel_Cell(3));
+kl2=char(Kernel_Cell(2));
+kl3=char(Kernel_Cell(1));
+[alpha,Ker,beta0]=SVMTSDP(X,X_l,Y_l,kl1,kl2,kl3);
 

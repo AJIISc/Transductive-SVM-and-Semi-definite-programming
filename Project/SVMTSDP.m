@@ -71,9 +71,9 @@ switch kl3
    case 'Sigmoid'
         Kerr=Ker_Sigmoid(X_l,X_u);
 end
-H1=outproduction(Y,Y).*Ker1;
-H2=outproduction(Y,Y).*Ker2;
-H3=outproduction(Y,Y).*Ker3;
+H1=Kernel_Embedding(Y,Y).*Ker1;
+H2=Kernel_Embedding(Y,Y).*Ker2;
+H3=Kernel_Embedding(Y,Y).*Ker3;
 
 T=length(Y);
 e=ones(T,1);
